@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  border: 1px solid #ccc;
+  height: 200px;
+  width: 300px;
+}
+
+.modal {
+  height: 30%;
+  width: 40%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(203, 227, 227);
+  z-index: 4;
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(99, 92, 92);
+  opacity: 0.7;
+  z-index: 3;
+}
